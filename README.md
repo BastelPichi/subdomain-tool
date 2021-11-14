@@ -7,7 +7,7 @@ This tool is not safe and may allow people to steal user information, perform Ma
 ## running this
 to run this, simply download all the files and run main.py. You may need to install the following requirements before:
 - flask
-- CLoudFlare
+- CloudFlare
 
 ## helping
 Were happy to accept pull requests making this tool better.
