@@ -1,0 +1,37 @@
+<html>
+    <head>
+        <title>Free subdomain</title>
+    </head>
+    <body>
+        <h2>Get Free subdomain</h2>
+        <form action="/createsubdomain" method="POST">
+            <label for=name>Subdomain name:</label>
+            <input type="text" name="name" id="name">
+            <br>
+            <br>
+            <label for="domain">Domain:</label>
+            <br>
+            <input type=radio id="dots" name="domain" value="s">
+            <label for=dots>.s.pichisdns.com</label>
+            <br>
+            <input type=radio id="dotdot" name="domain" value="dot">
+            <label for=dotdot>.dot.pichisdns.com</label>
+            <br>
+            <br>
+            <label for="type">Type:</label>
+            <br>
+            <input type=radio id="cname" name="type" value="CNAME">
+            <label for=cname>CNAME</label>
+            <br>
+            <input type=radio id="a" name="type" value="A">
+            <label for=a>A</label>
+            <br>
+            <br>
+            <label for=pointsto>Points To:</label>
+            <input type="text" name="pointsto" id="pointsto">
+            <br>
+            <br>
+            <button type="submit">Submit</button>
+        </form>
+    </body>
+</html>
