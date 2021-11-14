@@ -5,7 +5,7 @@ This tool will not work with .tk/.ml/.cf/.ga/.gq domains, as they are blocked by
 This tool is not safe and may allow people to steal user information, perform Man in the middle attacks, perform scams over these domain or may lead to the loose of the domain.
 
 ## running this
-to run this, simply download all the files and run main.py. You may need to install the following requirements before:
+to run this, simply download all the files, change the email, zoneid and cloudflare api token in main.py and run main.py. You may need to install the following requirements before:
 - flask
 - CloudFlare
 
